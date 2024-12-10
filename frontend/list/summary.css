@@ -1,0 +1,101 @@
+/* Overall Wrapper Styling */
+.summary-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading Styling */
+  .summary-wrapper h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+  }
+  
+  .summary-wrapper h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .summary-wrapper h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  /* Paragraph Styling */
+  .summary-wrapper p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* List Styling */
+  .summary-wrapper ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .summary-wrapper ul li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .summary-wrapper ul li:hover {
+    background-color: #f1f1f1;
+    border-color: #bbb;
+  }
+  
+  /* Sublist Styling */
+  .summary-wrapper ul ul {
+    margin-left: 20px;
+  }
+  
+  .summary-wrapper ul ul li {
+    background: #e9ecef;
+    border: 1px solid #ddd;
+  }
+  
+  /* Button Styling */
+  .summary-wrapper .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .summary-wrapper .btn-primary {
+    background-color: #007bff;
+  }
+  
+  .summary-wrapper .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .summary-wrapper .btn-secondary {
+    background-color: #6c757d;
+  }
+  
+  .summary-wrapper .btn-secondary:hover {
+    background-color: #5a6268;
+    transform: scale(1.05);
+  }
